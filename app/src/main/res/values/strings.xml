@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ContactoFragmento</string>
+
+    <string name="anadir">Añadir</string>
+    <string name="acp">Aceptar</string>
+    <string name="can">Cancelar</string>
+    <string name="str_borrar">Borrar</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="title_activity_activity_second">ActivitySecond</string>
+
+</resources>

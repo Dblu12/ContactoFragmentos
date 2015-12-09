@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/nombre"
+        android:id="@+id/tvNombre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Telefonos"
+        android:id="@+id/tvTelefonos"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_below="@+id/tvNombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@mipmap/ic_launcher"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_rowSpan="3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvTelefonos"
+        android:layout_toEndOf="@+id/tvTelefonos"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp" />
+
+
+</RelativeLayout>
